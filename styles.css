@@ -8,6 +8,17 @@ body {
   background-color: #cad2c5;
   font-size: 14px;
   font-family: "Calibri", "Arial", sans-serif;
+  color: #252525;
+}
+
+a {
+  text-decoration: none;
+  color: #1b5f6e;
+}
+
+a:hover {
+  text-decoration: underline;
+  transition: all 0.3s;
 }
 
 h1 {
@@ -15,7 +26,7 @@ h1 {
 }
 
 header {
-  border-bottom: 1px solid #35353525;
+  border-bottom: 2px solid #11353725;
 }
 
 nav {
@@ -32,7 +43,7 @@ nav {
   width: 90%;
   padding: 10px 20px;
   border-radius: 15px;
-  border: 5px solid #1b5f6e;
+  border: 2px solid #1b5f6e;
   margin-bottom: 10px;
   color: #1b5f6e;
   font-weight: bold;
@@ -55,16 +66,57 @@ nav {
 
 .navBtn:active {
   background-color: #113537;
-  border: 5px solid #113537;
+  border: 2px solid #113537;
   color: #cad2c5;
   transition: all 0.3s;
 }
 
 .navSelected {
   background-color: #113537 !important;
-  border: 5px solid #113537 !important;
+  border: 2px solid #113537 !important;
   color: #cad2c5;
   transition: all 0.3s;
+}
+
+#presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#imageContainer {
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#imageContainer > img {
+  width: 100%;
+  height: auto;
+  border-radius: 150px;
+  border: 2px solid #113537;
+  box-shadow: 0px 0px 10px 5px #11353725;
+}
+
+#presentationContainer {
+  margin-top: 20px;
+  width: 90%;
+  padding: 15px 10px;
+  border-radius: 15px;
+  background-color: #10501025;
+}
+
+#presentationContainer h1 {
+  color: #113537;
+}
+
+#presentationContainer p {
+  font-size: 1.2em;
+  margin-top: 10px;
 }
 
 /* Tablet Styles */
