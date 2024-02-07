@@ -16,6 +16,7 @@ body {
 
 a {
   text-decoration: none;
+  font-style: italic;
   color: #1b5f6e;
 }
 
@@ -81,7 +82,7 @@ nav {
   transition: all 0.3s;
 }
 
-#presentation {
+#introduction {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -105,7 +106,7 @@ nav {
   box-shadow: 0px 0px 10px 5px #11353725;
 }
 
-#presentationContainer {
+#introductionContainer {
   margin-top: 20px;
   width: 90%;
   padding: 15px 10px;
@@ -113,11 +114,11 @@ nav {
   background-color: #10501025;
 }
 
-#presentationContainer h1 {
+#introductionContainer h1 {
   color: #113537;
 }
 
-#presentationContainer p {
+#introductionContainer p {
   font-size: 1.2em;
   margin-top: 10px;
 }
@@ -157,6 +158,37 @@ footer p:first-child {
   margin-left: 10px;
 }
 
+#globalContainer {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  margin-bottom: 20px;
+  padding: 15px 10px;
+  border-radius: 15px;
+  background-color: #10501025;
+}
+
+.card:first-child {
+  margin-top: 20px;
+}
+
+.card ul {
+  list-style: none;
+}
+
+.card li,
+.card p {
+  margin-top: 5px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #113537;
+}
+
 /* Tablet Styles */
 @media only screen and (min-width: 451px) and (max-width: 960px) {
   nav {
@@ -176,11 +208,11 @@ footer p:first-child {
     max-width: 350px;
   }
 
-  #presentationContainer {
+  #introductionContainer {
     padding: 30px 25px;
   }
 
-  #presentationContainer p {
+  #introductionContainer p {
     margin-top: 20px;
   }
 }
@@ -200,7 +232,7 @@ footer p:first-child {
     margin-top: 20px;
   }
 
-  #presentation {
+  #introduction {
     flex-direction: row;
     margin-top: auto;
     margin-bottom: auto;
@@ -210,7 +242,7 @@ footer p:first-child {
     max-width: 350px;
   }
 
-  #presentationContainer {
+  #introductionContainer {
     margin-top: 50px;
     margin-bottom: auto;
     margin-left: 50px;
@@ -218,7 +250,7 @@ footer p:first-child {
     padding: 30px 25px;
   }
 
-  #presentationContainer p {
+  #introductionContainer p {
     margin-top: 20px;
   }
 }
