@@ -160,6 +160,7 @@ footer p:first-child {
 
 #globalContainer {
   width: 90%;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -169,10 +170,6 @@ footer p:first-child {
   padding: 15px 10px;
   border-radius: 15px;
   background-color: #10501025;
-}
-
-.card:first-child {
-  margin-top: 20px;
 }
 
 .card ul {
@@ -252,5 +249,20 @@ h2 {
 
   #introductionContainer p {
     margin-top: 20px;
+  }
+
+  #globalContainer {
+    max-width: 1200px;
+    margin-top: auto;
+  }
+
+  .card {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card:last-child {
+    margin-bottom: 0px;
   }
 }
