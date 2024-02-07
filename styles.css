@@ -150,10 +150,18 @@ footer p:first-child {
   margin-left: 10px;
 }
 
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-}
-
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
+  nav {
+    flex-direction: row;
+  }
+
+  .navBtn {
+    width: 250px;
+    margin: 20px 10px;
+  }
+
+  .navBtn:first-child {
+    margin-top: 20px;
+  }
 }
