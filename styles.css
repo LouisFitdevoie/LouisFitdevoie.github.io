@@ -50,7 +50,7 @@ nav {
   margin-bottom: 10px;
   color: #1b5f6e;
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: none !important;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -100,7 +100,7 @@ nav {
 #imageContainer > img {
   width: 100%;
   height: auto;
-  border-radius: 150px;
+  border-radius: 250px;
   border: 2px solid #113537;
   box-shadow: 0px 0px 10px 5px #11353725;
 }
@@ -123,14 +123,21 @@ nav {
 }
 
 footer {
+  width: 100%;
+  margin-top: auto;
+  background-color: #113537;
+}
+
+footer div {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: auto;
   padding: 15px 10px;
-  background-color: #113537;
   color: #cad2c5;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer p:first-child {
@@ -150,6 +157,34 @@ footer p:first-child {
   margin-left: 10px;
 }
 
+/* Tablet Styles */
+@media only screen and (min-width: 451px) and (max-width: 960px) {
+  nav {
+    flex-direction: row;
+  }
+
+  .navBtn {
+    width: 125px;
+    margin: 20px 10px;
+  }
+
+  .navBtn:first-child {
+    margin-top: 20px;
+  }
+
+  #imageContainer {
+    max-width: 350px;
+  }
+
+  #presentationContainer {
+    padding: 30px 25px;
+  }
+
+  #presentationContainer p {
+    margin-top: 20px;
+  }
+}
+
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   nav {
@@ -162,6 +197,28 @@ footer p:first-child {
   }
 
   .navBtn:first-child {
+    margin-top: 20px;
+  }
+
+  #presentation {
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  #imageContainer {
+    max-width: 350px;
+  }
+
+  #presentationContainer {
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-left: 50px;
+    max-width: 500px;
+    padding: 30px 25px;
+  }
+
+  #presentationContainer p {
     margin-top: 20px;
   }
 }
