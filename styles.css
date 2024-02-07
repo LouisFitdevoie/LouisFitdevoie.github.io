@@ -52,6 +52,7 @@ nav {
   color: #1b5f6e;
   font-weight: bold;
   text-decoration: none !important;
+  font-style: normal !important;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -184,6 +185,15 @@ footer p:first-child {
 h2 {
   font-size: 2em;
   color: #113537;
+  text-align: center;
+}
+
+#youthMovementLogo {
+  display: block;
+  width: 75px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Tablet Styles */
@@ -211,6 +221,16 @@ h2 {
 
   #introductionContainer p {
     margin-top: 20px;
+  }
+
+  #globalContainer {
+    margin-top: auto;
+  }
+
+  .card {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
