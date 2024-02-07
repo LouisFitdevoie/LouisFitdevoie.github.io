@@ -52,6 +52,7 @@ nav {
   color: #1b5f6e;
   font-weight: bold;
   text-decoration: none !important;
+  font-style: normal !important;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -172,6 +173,14 @@ footer p:first-child {
   background-color: #10501025;
 }
 
+.card:first-child {
+  margin-top: 20px;
+}
+
+.card:last-child {
+  margin-bottom: 20px;
+}
+
 .card ul {
   list-style: none;
 }
@@ -184,6 +193,19 @@ footer p:first-child {
 h2 {
   font-size: 2em;
   color: #113537;
+  text-align: center;
+}
+
+#youthMovementLogo {
+  display: block;
+  width: 75px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ol {
+  list-style: inside decimal;
 }
 
 /* Tablet Styles */
@@ -211,6 +233,16 @@ h2 {
 
   #introductionContainer p {
     margin-top: 20px;
+  }
+
+  #globalContainer {
+    margin-top: auto;
+  }
+
+  .card {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -264,5 +296,9 @@ h2 {
 
   .card:last-child {
     margin-bottom: 0px;
+  }
+
+  #noAutoMarginTop {
+    margin-top: 20px;
   }
 }
