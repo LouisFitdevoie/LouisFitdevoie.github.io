@@ -173,6 +173,14 @@ footer p:first-child {
   background-color: #10501025;
 }
 
+.card:first-child {
+  margin-top: 20px;
+}
+
+.card:last-child {
+  margin-bottom: 20px;
+}
+
 .card ul {
   list-style: none;
 }
@@ -194,6 +202,10 @@ h2 {
   height: auto;
   margin-left: auto;
   margin-right: auto;
+}
+
+ol {
+  list-style: inside decimal;
 }
 
 /* Tablet Styles */
@@ -284,5 +296,9 @@ h2 {
 
   .card:last-child {
     margin-bottom: 0px;
+  }
+
+  #noAutoMarginTop {
+    margin-top: 20px;
   }
 }
