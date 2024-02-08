@@ -93,7 +93,7 @@ nav {
 
 #imageContainer {
   display: flex;
-  max-width: 250px;
+  max-width: 150px;
   margin-right: 20px;
   margin-left: 20px;
   flex-direction: column;
@@ -233,6 +233,10 @@ ol {
     margin-top: 20px;
   }
 
+  #imageContainer {
+    max-width: 250px;
+  }
+
   #globalContainer {
     margin-top: auto;
   }
@@ -266,6 +270,7 @@ ol {
   }
 
   #imageContainer {
+    max-width: 250px;
     margin-right: 0px;
   }
 
